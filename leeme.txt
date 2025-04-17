@@ -1,0 +1,34 @@
+**F5_CF Auditor** es una herramienta visual desarrollada en Python que permite consultar, auditar y exportar información clave desde entornos F5 BIG-IP y servicios Cloudflare. Está diseñada para profesionales de redes y ciberseguridad que necesiten automatizar la obtención de datos técnicos y generar reportes estructurados.
+
+---
+
+## 🚀 Funcionalidades principales
+
+### 🔐 Autenticación
+
+- **F5 BIG-IP**: Login mediante IP, usuario y contraseña.
+- **Cloudflare**: Login mediante email y API Token.
+
+---
+
+### 🧩 Módulos incluidos
+
+#### 🔸 F5 BIG-IP
+
+- **Recolección Básica**: Nodos, Virtual Servers, Pools y Certificados.
+- **Recolección Avanzada**: Información de sistema, estadísticas, configuraciones de red, perfiles, módulos APM/ASM/GTM y estado de clúster.
+- **Configuraciones específicas**: iRules, Monitores y Persistencia.
+
+#### 🔹 Cloudflare
+
+- Consulta de zonas disponibles
+- DNS Records
+- Datos extendidos: analíticas, reglas de firewall, SSL, DNSSEC, rate limits, etc.
+
+---
+
+### 📤 Exportación
+
+- Exporta toda la información a un archivo Excel (`.xlsx`)
+- Agrupación por hojas y ajuste automático de columnas
+- Compatible con Excel, Google Sheets y otras herramientas
